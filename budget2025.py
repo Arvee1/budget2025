@@ -20,7 +20,7 @@ r.pause_threshold = 2
 
 CHROMA_DATA_PATH = "chroma_data/"
 EMBED_MODEL = "all-MiniLM-L6-v2"
-COLLECTION_NAME = "ofsc_docs"
+COLLECTION_NAME = "budget2025"
 
 client = chromadb.PersistentClient(path=CHROMA_DATA_PATH)
 embedding_func = embedding_functions.SentenceTransformerEmbeddingFunction(
